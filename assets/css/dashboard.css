@@ -955,3 +955,53 @@ body.dashboard-body{
     transition:none;
   }
 }
+
+/* =========================================================
+   V32 — ADMIN LOGOUT VISIBILITY
+   Keep logout clearly visible at the bottom of the sidebar.
+   ========================================================= */
+.dashboard-sidebar-foot{
+  margin-top:auto !important;
+  padding:16px 0 0 !important;
+  border-top:1px solid rgba(255,255,255,.18) !important;
+}
+
+.dashboard-logout{
+  min-height:50px !important;
+  width:100% !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  padding:0 15px !important;
+  background:rgba(251,91,0,.10) !important;
+  border:1px solid rgba(251,91,0,.55) !important;
+  color:#fff !important;
+  font-size:10px !important;
+  font-weight:800 !important;
+  letter-spacing:.13em !important;
+  text-transform:uppercase !important;
+  transition:background .25s ease,border-color .25s ease,transform .25s ease !important;
+}
+
+.dashboard-logout-label{
+  display:block !important;
+  margin:0 !important;
+  color:inherit !important;
+  font-size:inherit !important;
+  line-height:1 !important;
+  letter-spacing:inherit !important;
+}
+
+.dashboard-logout:hover,
+.dashboard-logout:focus-visible{
+  background:var(--orange) !important;
+  border-color:var(--orange) !important;
+  color:#fff !important;
+  transform:translateY(-2px) !important;
+  outline:none !important;
+}
+
+/* There is no need for a directional arrow on logout. */
+.dashboard-logout-arrow{
+  display:none !important;
+}

@@ -105,3 +105,17 @@
     observer.observe(view, { attributes: true, attributeFilter: ['class'] });
   });
 })();
+
+/* V32 admin logout: clear client-side session remnants before returning to login. */
+document.querySelectorAll('[data-dashboard-logout]').forEach(link=>{
+  link.addEventListener('click',()=>{
+    try{
+      sessionStorage.clear();
+      localStorage.removeItem('stacklyAuth');
+      localStorage.removeItem('stacklyUser');
+      localStorage.removeItem('stacklyRole');
+    }catch(error){
+      /* Storage may be unavailable; normal navigation still proceeds. */
+    }
+  });
+});
