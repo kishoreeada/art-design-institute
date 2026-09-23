@@ -375,3 +375,45 @@ body.auth-body{background:var(--paper);color:var(--ink);font-family:Arial,Helvet
   .auth-signup .auth-panel{padding-inline:18px}
   .auth-signup .auth-switch{align-items:flex-start;flex-direction:column;gap:9px}
 }
+
+/* =========================================================
+   V32 — AUTH DESKTOP / TABLET OVERFLOW FIX
+   Keep the two-column composition intact, but allow the page to
+   scroll naturally when the form is taller than the viewport.
+   This prevents the Create Account / Sign In controls from being
+   clipped on shorter laptop and tablet-height viewports.
+   ========================================================= */
+@media(min-width:768px){
+  html.auth-html,
+  body.auth-body{
+    height:auto;
+    min-height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+
+  .auth-shell{
+    height:auto;
+    min-height:100svh;
+    overflow:visible;
+    align-items:stretch;
+  }
+
+  .auth-media{
+    height:auto;
+    min-height:100svh;
+    align-self:stretch;
+  }
+
+  .auth-panel{
+    height:auto;
+    min-height:100svh;
+    overflow:visible;
+    align-self:stretch;
+  }
+
+  .auth-signup .auth-panel,
+  .auth-login .auth-panel{
+    overflow:visible;
+  }
+}
