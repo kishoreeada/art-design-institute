@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Admin Portal for Stackly Arts Institute">
+<title>Admin Portal — Stackly Arts Institute</title>
+<link rel="stylesheet" href="../../assets/css/dashboard.css">
+</head>
+<body class="dashboard-body" data-role="admin">
+  <div class="dashboard-mobile-header">
+    <button class="dashboard-menu-open" type="button" data-menu-open aria-expanded="false" aria-controls="dashboardSidebar" aria-label="Open dashboard menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <a class="dashboard-mobile-logo" href="../../index.html" aria-label="Stackly Arts Institute home">
+      <img src="../../assets/images/stackly-logo-theme-v10.webp" alt="Stackly Arts Institute">
+    </a>
+    <span class="dashboard-mobile-avatar" data-avatar aria-label="Logged in user">S</span>
+  </div>
+
+  <div class="dashboard-overlay" data-menu-overlay></div>
+
+  <aside class="dashboard-sidebar" id="dashboardSidebar" aria-label="Dashboard navigation">
+    <div class="dashboard-sidebar-head">
+      <a class="dashboard-brand" href="../../index.html" aria-label="Stackly Arts Institute home">
+        <img src="../../assets/images/stackly-logo-theme-v10.webp" alt="Stackly Arts Institute">
+      </a>
+      <button class="dashboard-mobile-close" type="button" data-menu-close aria-label="Close dashboard menu">×</button>
+    </div>
+
+    <div class="dashboard-nav-label">Admin Portal navigation</div>
+    <nav class="dashboard-nav">
+      <a href="#overview" data-tab="overview" class="active">Overview<span>↗</span></a><a href="#students" data-tab="students" class="">Students<span>↗</span></a><a href="#programs" data-tab="programs" class="">Programs<span>↗</span></a><a href="#reviews" data-tab="reviews" class="">Reviews<span>↗</span></a><a href="#calendar" data-tab="calendar" class="">Studio Calendar<span>↗</span></a>
+    </nav>
+
+    <div class="dashboard-sidebar-foot">
+      <a class="dashboard-logout" href="../../login.html" aria-label="Log out and return to login">
+        <span>Logout</span>
+        <span class="dashboard-logout-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="dashboard-main">
+    <header class="dashboard-topbar">
+      <div class="dashboard-topbar-left">
+        <span class="dashboard-eyebrow">Admin Portal / 2026</span>
+      </div>
+      <div class="dashboard-top-actions">
+        <div class="dashboard-user">
+          <span class="dashboard-avatar" data-avatar>S</span>
+          <span class="dashboard-user-copy">
+            <strong data-user-email>admin@stackly.in</strong>
+            <span>Signed in</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    
+<section class="dashboard-view" data-view="overview" data-title="Overview">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">01 / Overview</span><h1>Lead the room.<br><em>Shape practice.</em></h1><p>A focused workspace for programme activity, student progress, reviews and the institute calendar.</p></div>
+    <div class="dashboard-hero-note">See the people, programmes and conversations that need attention now without losing the wider studio picture.</div>
+  </div>
+  <section class="dashboard-section"><div class="dashboard-section-head"><h2>Institute snapshot</h2><span>Current term</span></div>
+    <div class="dashboard-cards">
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Active students</small><strong data-count="128">0</strong><p>Across current programmes</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Programmes</small><strong data-count="8">0</strong><p>Running this term</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Reviews</small><strong data-count="24">0</strong><p>Pending feedback</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Events</small><strong data-count="6">0</strong><p>Upcoming institute events</p></article>
+    </div>
+  </section>
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel"><h3>Today's activity</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Portfolio review block</span><span class="dashboard-list-meta">2:00 PM<br>24 students</span></div><div class="dashboard-list-item"><span>Foundation studio</span><span class="dashboard-list-meta">Tomorrow · 9:30 AM<br>18 students</span></div><div class="dashboard-list-item"><span>Practitioner session</span><span class="dashboard-list-meta">Friday · 4:00 PM<br>Open studio</span></div></div></section>
+    <section class="dashboard-panel"><h3>Current focus</h3><p class="dashboard-panel-copy">Keep programme reviews moving and give tutors a clear view of the student work that needs a conversation this week.</p><div style="margin-top:22px;font-size:8px;letter-spacing:.1em;text-transform:uppercase;font-weight:800">Review cycle</div><div class="dashboard-progress"><span style="width:84%"></span></div><div class="dashboard-progress-label"><span>Completed</span><span>84%</span></div></section>
+  </div>
+  <div class="dashboard-callout"><div class="dashboard-callout-copy"><strong>Keep the institute moving.</strong><p>One clear conversation at a time.</p></div><a href="#students" data-tab-link="students">View students ↗</a></div>
+</section>
+    
+<section class="dashboard-view" data-view="students" data-title="Students">
+  <div class="dashboard-hero"><div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">02 / Students</span><h1>See the people<br><em>behind the work.</em></h1><p>Review participation, current projects and support needs across the student body.</p></div><div class="dashboard-hero-note">Student information is grouped around progress and conversation, not just attendance.</div></div>
+  <section class="dashboard-section"><div class="dashboard-section-head"><h2>Student activity</h2><span>128 active</span></div>
+    <div class="dashboard-table">
+      <div class="dashboard-table-row head"><span>Student</span><span>Programme</span><span>Progress</span><span>Status</span></div>
+      <div class="dashboard-table-row"><span>A. Kumar</span><span>Fine Art</span><span>82%</span><span><b class="dashboard-status good">On track</b></span></div>
+      <div class="dashboard-table-row"><span>R. Mehta</span><span>Visual Communication</span><span>68%</span><span><b class="dashboard-status orange">Review</b></span></div>
+      <div class="dashboard-table-row"><span>S. Rao</span><span>Digital Practice</span><span>91%</span><span><b class="dashboard-status good">On track</b></span></div>
+      <div class="dashboard-table-row"><span>N. Shah</span><span>Fine Art</span><span>54%</span><span><b class="dashboard-status orange">Support</b></span></div>
+    </div>
+  </section>
+  <div class="dashboard-two-col"><section class="dashboard-panel"><h3>Support queue</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>4 students need review</span><span class="dashboard-status orange">Attention</span></div><div class="dashboard-list-item"><span>11 portfolio edits due</span><span class="dashboard-status">This week</span></div><div class="dashboard-list-item"><span>3 attendance conversations</span><span class="dashboard-status orange">Schedule</span></div></div></section><section class="dashboard-panel"><h3>Participation</h3><p class="dashboard-panel-copy">Current participation remains strongest in studio-led sessions. Keep open studio time visible for students who need more practical feedback.</p></section></div>
+</section>
+    
+<section class="dashboard-view" data-view="programs" data-title="Programs">
+  <div class="dashboard-hero"><div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">03 / Programs</span><h1>Build strong<br><em>pathways.</em></h1><p>Monitor programme health, teaching rhythm and the moments where curriculum meets practice.</p></div><div class="dashboard-hero-note">Programme information stays practical: what is running, how far it has moved and where teams need alignment.</div></div>
+  <section class="dashboard-section"><div class="dashboard-section-head"><h2>Running programmes</h2><span>08 live</span></div><div class="dashboard-cards">
+    <article class="dashboard-card"><small class="dashboard-card-kicker">Foundation</small><strong>92%</strong><p>Teaching plan delivered</p></article>
+    <article class="dashboard-card"><small class="dashboard-card-kicker">Fine Art</small><strong>78%</strong><p>Teaching plan delivered</p></article>
+    <article class="dashboard-card"><small class="dashboard-card-kicker">Digital</small><strong>84%</strong><p>Teaching plan delivered</p></article>
+    <article class="dashboard-card"><small class="dashboard-card-kicker">Communication</small><strong>71%</strong><p>Teaching plan delivered</p></article>
+  </div></section>
+  <div class="dashboard-two-col"><section class="dashboard-panel"><h3>Programme notes</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Foundation studio</span><span class="dashboard-list-meta">Week 08<br><span class="dashboard-status good">On plan</span></span></div><div class="dashboard-list-item"><span>Fine Art critique</span><span class="dashboard-list-meta">Week 07<br><span class="dashboard-status orange">Adjust</span></span></div><div class="dashboard-list-item"><span>Digital practice</span><span class="dashboard-list-meta">Week 09<br><span class="dashboard-status good">On plan</span></span></div></div></section><section class="dashboard-panel"><h3>Next planning window</h3><p class="dashboard-panel-copy">Programme leads meet next Tuesday to review the following studio cycle. Prepare any curriculum changes before Monday afternoon.</p></section></div>
+</section>
+    
+<section class="dashboard-view" data-view="reviews" data-title="Reviews">
+  <div class="dashboard-hero"><div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">04 / Reviews</span><h1>Make feedback<br><em>useful.</em></h1><p>Keep portfolio conversations, tutor notes and review moments moving without losing context.</p></div><div class="dashboard-hero-note">The aim is not more feedback. It is clearer feedback that gives the next piece of work somewhere to go.</div></div>
+  <section class="dashboard-section"><div class="dashboard-section-head"><h2>Review queue</h2><span>24 pending</span></div><div class="dashboard-table">
+    <div class="dashboard-table-row head"><span>Review</span><span>Programme</span><span>Due</span><span>Status</span></div>
+    <div class="dashboard-table-row"><span>Portfolio block A</span><span>Fine Art</span><span>Today</span><span><b class="dashboard-status orange">24 works</b></span></div>
+    <div class="dashboard-table-row"><span>Midterm critique</span><span>Foundation</span><span>Wed</span><span><b class="dashboard-status good">Prepared</b></span></div>
+    <div class="dashboard-table-row"><span>Digital review</span><span>Digital Practice</span><span>Fri</span><span><b class="dashboard-status orange">Assign</b></span></div>
+  </div></section>
+  <div class="dashboard-two-col"><section class="dashboard-panel"><h3>Feedback rhythm</h3><p class="dashboard-panel-copy">Most reviews are being completed within the planned cycle. Keep the two highest-priority conversations visible to tutors before the next session.</p></section><section class="dashboard-panel"><h3>Review checklist</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Student work attached</span><span class="dashboard-status good">Ready</span></div><div class="dashboard-list-item"><span>Tutor assigned</span><span class="dashboard-status good">Ready</span></div><div class="dashboard-list-item"><span>Room confirmed</span><span class="dashboard-status orange">Check</span></div></div></section></div>
+</section>
+    
+<section class="dashboard-view" data-view="calendar" data-title="Studio Calendar">
+  <div class="dashboard-hero"><div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">05 / Studio Calendar</span><h1>Make space<br><em>for practice.</em></h1><p>Coordinate studios, workshops, public events and review rooms around the rhythm of the institute.</p></div><div class="dashboard-hero-note">The calendar is a shared studio resource. Protect making time as carefully as meetings.</div></div>
+  <section class="dashboard-section"><div class="dashboard-section-head"><h2>Upcoming schedule</h2><span>06 events</span></div><div class="dashboard-table">
+    <div class="dashboard-table-row head"><span>Event</span><span>Time</span><span>Location</span><span>Status</span></div>
+    <div class="dashboard-table-row"><span>Portfolio review block</span><span>Today · 2 PM</span><span>Crit Room 2</span><span><b class="dashboard-status good">Booked</b></span></div>
+    <div class="dashboard-table-row"><span>Foundation studio</span><span>Wed · 9:30 AM</span><span>Studio 01</span><span><b class="dashboard-status good">Booked</b></span></div>
+    <div class="dashboard-table-row"><span>Open Studio Evening</span><span>Fri · 5:30 PM</span><span>Main studios</span><span><b class="dashboard-status orange">Public</b></span></div>
+    <div class="dashboard-table-row"><span>Practitioner session</span><span>Sat · 4 PM</span><span>Lecture Hall</span><span><b class="dashboard-status">Planning</b></span></div>
+  </div></section>
+  <div class="dashboard-two-col"><section class="dashboard-panel"><h3>Room availability</h3><div class="dashboard-feature-row"><article class="dashboard-feature"><small>Studio 01</small><h3>Available</h3><p>Thursday · 1–4 PM</p></article><article class="dashboard-feature"><small>Crit Room 2</small><h3>Booked</h3><p>Friday · 10 AM–1 PM</p></article></div></section><section class="dashboard-panel"><h3>Next public moment</h3><p class="dashboard-panel-copy">Open Studio Evening brings current work into conversation. Confirm signage and practitioner availability before Thursday.</p></section></div>
+</section>
+  </main>
+</div>
+
+<script src="../../assets/js/dashboard.js"></script>
+</body>
+</html>

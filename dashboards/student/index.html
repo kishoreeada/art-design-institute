@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Student Portal for Stackly Arts Institute">
+<title>Student Portal — Stackly Arts Institute</title>
+<link rel="stylesheet" href="../../assets/css/dashboard.css">
+</head>
+<body class="dashboard-body" data-role="student">
+  <div class="dashboard-mobile-header">
+    <button class="dashboard-menu-open" type="button" data-menu-open aria-expanded="false" aria-controls="dashboardSidebar" aria-label="Open dashboard menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <a class="dashboard-mobile-logo" href="../../index.html" aria-label="Stackly Arts Institute home">
+      <img src="../../assets/images/stackly-logo-theme-v10.webp" alt="Stackly Arts Institute">
+    </a>
+    <span class="dashboard-mobile-avatar" data-avatar aria-label="Logged in user">S</span>
+  </div>
+
+  <div class="dashboard-overlay" data-menu-overlay></div>
+
+  <aside class="dashboard-sidebar" id="dashboardSidebar" aria-label="Dashboard navigation">
+    <div class="dashboard-sidebar-head">
+      <a class="dashboard-brand" href="../../index.html" aria-label="Stackly Arts Institute home">
+        <img src="../../assets/images/stackly-logo-theme-v10.webp" alt="Stackly Arts Institute">
+      </a>
+      <button class="dashboard-mobile-close" type="button" data-menu-close aria-label="Close dashboard menu">×</button>
+    </div>
+
+    <div class="dashboard-nav-label">Student Portal navigation</div>
+    <nav class="dashboard-nav">
+      <a href="#overview" data-tab="overview" class="active">Overview<span>↗</span></a><a href="#courses" data-tab="courses" class="">My Courses<span>↗</span></a><a href="#schedule" data-tab="schedule" class="">Schedule<span>↗</span></a><a href="#assignments" data-tab="assignments" class="">Assignments<span>↗</span></a><a href="#studio" data-tab="studio" class="">Studio Work<span>↗</span></a>
+    </nav>
+
+    <div class="dashboard-sidebar-foot">
+      <a class="dashboard-logout" href="../../login.html" aria-label="Log out and return to login">
+        <span>Logout</span>
+        <span class="dashboard-logout-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </aside>
+
+  <main class="dashboard-main">
+    <header class="dashboard-topbar">
+      <div class="dashboard-topbar-left">
+        <span class="dashboard-eyebrow">Student Portal / 2026</span>
+      </div>
+      <div class="dashboard-top-actions">
+        <div class="dashboard-user">
+          <span class="dashboard-avatar" data-avatar>S</span>
+          <span class="dashboard-user-copy">
+            <strong data-user-email>student@stackly.in</strong>
+            <span>Signed in</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    
+<section class="dashboard-view" data-view="overview" data-title="Overview">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy">
+      <span class="dashboard-eyebrow-small">01 / Overview</span>
+      <h1>Keep making.<br><em>Keep moving.</em></h1>
+      <p>Your studio practice, learning schedule and current work in one focused place. Pick up the next thing that needs attention.</p>
+    </div>
+    <div class="dashboard-hero-note">A clear view of what needs attention now, what is coming next and where your practice is moving.</div>
+  </div>
+
+  <section class="dashboard-section">
+    <div class="dashboard-section-head"><h2>Practice snapshot</h2><span>Current term</span></div>
+    <div class="dashboard-cards">
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Current term</small><strong data-count="4">0</strong><p>Courses in progress</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Attendance</small><strong data-count="92" data-suffix="%">0%</strong><p>Studio participation</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Projects</small><strong data-count="7">0</strong><p>Active creative projects</p></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">Feedback</small><strong data-count="12">0</strong><p>Notes ready to review</p></article>
+    </div>
+  </section>
+
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel">
+      <h3>Next on your desk</h3>
+      <div class="dashboard-list">
+        <div class="dashboard-list-item"><span>Experimental Drawing</span><span class="dashboard-list-meta">Today · 10:00 AM<br><b>Studio</b></span></div>
+        <div class="dashboard-list-item"><span>Visual Research</span><span class="dashboard-list-meta">Tomorrow · 2:00 PM<br><b>Workshop</b></span></div>
+        <div class="dashboard-list-item"><span>Portfolio Review</span><span class="dashboard-list-meta">Friday · 11:30 AM<br><b>Review</b></span></div>
+      </div>
+    </section>
+    <section class="dashboard-panel">
+      <h3>Current focus</h3>
+      <p class="dashboard-panel-copy">Keep the most important work visible and make room for feedback before the next studio milestone.</p>
+      <div style="margin-top:22px;font-size:8px;letter-spacing:.1em;text-transform:uppercase;font-weight:800">Term progress</div>
+      <div class="dashboard-progress"><span style="width:72%"></span></div>
+      <div class="dashboard-progress-label"><span>Current cycle</span><span>72%</span></div>
+    </section>
+  </div>
+
+  <section class="dashboard-section" style="margin-top:40px">
+    <div class="dashboard-section-head"><h2>Quick actions</h2><span>Make time</span></div>
+    <div class="dashboard-feature-row">
+      <article class="dashboard-feature"><small>01</small><h3>Review feedback</h3><p>Open your latest tutor notes and identify the next practical move.</p></article>
+      <article class="dashboard-feature"><small>02</small><h3>Check schedule</h3><p>See upcoming studio sessions, workshops and review moments.</p></article>
+      <article class="dashboard-feature"><small>03</small><h3>Continue project</h3><p>Return to the work currently marked as your main studio focus.</p></article>
+    </div>
+  </section>
+
+  <div class="dashboard-callout"><div class="dashboard-callout-copy"><strong>Keep the work in motion.</strong><p>Small, consistent studio decisions add up.</p></div><a href="#studio" data-tab-link="studio">Open studio work ↗</a></div>
+</section>
+    
+<section class="dashboard-view" data-view="courses" data-title="My Courses">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">02 / My Courses</span><h1>Study with<br><em>purpose.</em></h1><p>See every active course, what you have completed and what the next milestone asks from you.</p></div>
+    <div class="dashboard-hero-note">Five studio pathways are available this term. Use each course space to keep references, notes and feedback together.</div>
+  </div>
+  <section class="dashboard-section">
+    <div class="dashboard-section-head"><h2>Active courses</h2><span>04 courses</span></div>
+    <div class="dashboard-cards">
+      <article class="dashboard-card"><small class="dashboard-card-kicker">01 / Core</small><strong>Drawing</strong><p>Experimental Drawing · 82% complete</p><div class="dashboard-progress"><span style="width:82%"></span></div></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">02 / Research</small><strong>Visual</strong><p>Visual Research · 68% complete</p><div class="dashboard-progress"><span style="width:68%"></span></div></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">03 / Practice</small><strong>Material</strong><p>Material Studies · 74% complete</p><div class="dashboard-progress"><span style="width:74%"></span></div></article>
+      <article class="dashboard-card"><small class="dashboard-card-kicker">04 / Context</small><strong>Culture</strong><p>Art & Culture · 59% complete</p><div class="dashboard-progress"><span style="width:59%"></span></div></article>
+    </div>
+  </section>
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel"><h3>Latest course notes</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Drawing critique</span><span class="dashboard-list-meta">2 notes<br><span class="dashboard-status good">Reviewed</span></span></div><div class="dashboard-list-item"><span>Research bibliography</span><span class="dashboard-list-meta">6 sources<br><span class="dashboard-status orange">Update</span></span></div><div class="dashboard-list-item"><span>Material experiment</span><span class="dashboard-list-meta">4 images<br><span class="dashboard-status good">Ready</span></span></div></div></section>
+    <section class="dashboard-panel"><h3>What comes next</h3><p class="dashboard-panel-copy">The next course checkpoint is your portfolio review. Bring one resolved study and one unfinished experiment for discussion.</p><div class="dashboard-feature-row" style="margin-top:20px"><article class="dashboard-feature"><small>Milestone</small><h3>Portfolio review</h3><p>Friday · 11:30 AM</p></article><article class="dashboard-feature"><small>Room</small><h3>Studio 04</h3><p>South wing · Level 2</p></article></div></section>
+  </div>
+</section>
+    
+<section class="dashboard-view" data-view="schedule" data-title="Schedule">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">03 / Schedule</span><h1>Know what<br><em>comes next.</em></h1><p>Plan studio time around classes, critiques, workshops and the moments where work becomes conversation.</p></div>
+    <div class="dashboard-hero-note">Your upcoming week is arranged around making first, then reflection and review.</div>
+  </div>
+  <section class="dashboard-section">
+    <div class="dashboard-section-head"><h2>This week</h2><span>03 upcoming</span></div>
+    <div class="dashboard-table">
+      <div class="dashboard-table-row head"><span>Session</span><span>Time</span><span>Place</span><span>Status</span></div>
+      <div class="dashboard-table-row"><span>Experimental Drawing</span><span>Tue · 10:00 AM</span><span>Studio 04</span><span><b class="dashboard-status good">Confirmed</b></span></div>
+      <div class="dashboard-table-row"><span>Visual Research</span><span>Wed · 2:00 PM</span><span>Library Lab</span><span><b class="dashboard-status good">Confirmed</b></span></div>
+      <div class="dashboard-table-row"><span>Portfolio Review</span><span>Fri · 11:30 AM</span><span>Crit Room 2</span><span><b class="dashboard-status orange">Prepare</b></span></div>
+    </div>
+  </section>
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel"><h3>Protected studio time</h3><p class="dashboard-panel-copy">Your calendar has a clear two-hour practice block on Thursday afternoon. Keep it free for unresolved work rather than filling it with meetings.</p></section>
+    <section class="dashboard-panel"><h3>Upcoming event</h3><div class="dashboard-feature"><small>Friday / Public</small><h3>Open Studio Evening</h3><p>5:30 PM · Main studios · Bring current work for informal conversation.</p></div></section>
+  </div>
+</section>
+    
+<section class="dashboard-view" data-view="assignments" data-title="Assignments">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">04 / Assignments</span><h1>Make the<br><em>next move.</em></h1><p>Track what is due, what is in progress and which pieces need one more pass before review.</p></div>
+    <div class="dashboard-hero-note">Prioritise the work closest to feedback. Finished is useful; considered is better.</div>
+  </div>
+  <section class="dashboard-section">
+    <div class="dashboard-section-head"><h2>Assignment board</h2><span>05 active</span></div>
+    <div class="dashboard-table">
+      <div class="dashboard-table-row head"><span>Assignment</span><span>Course</span><span>Due</span><span>Status</span></div>
+      <div class="dashboard-table-row"><span>Drawing study 04</span><span>Drawing</span><span>Today</span><span><b class="dashboard-status orange">In progress</b></span></div>
+      <div class="dashboard-table-row"><span>Research statement</span><span>Visual Research</span><span>Tomorrow</span><span><b class="dashboard-status good">Draft ready</b></span></div>
+      <div class="dashboard-table-row"><span>Material experiment</span><span>Material Studies</span><span>Friday</span><span><b class="dashboard-status orange">Needs images</b></span></div>
+      <div class="dashboard-table-row"><span>Context response</span><span>Art & Culture</span><span>Mon 29</span><span><b class="dashboard-status good">Submitted</b></span></div>
+      <div class="dashboard-table-row"><span>Portfolio edit</span><span>Studio</span><span>Oct 02</span><span><b class="dashboard-status">Planning</b></span></div>
+    </div>
+  </section>
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel"><h3>Focus first</h3><p class="dashboard-panel-copy">Complete the drawing study before opening another task. It feeds directly into Friday's review conversation.</p></section>
+    <section class="dashboard-panel"><h3>Submission checklist</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Final image export</span><span class="dashboard-status good">Ready</span></div><div class="dashboard-list-item"><span>Process notes</span><span class="dashboard-status orange">Review</span></div><div class="dashboard-list-item"><span>Reference list</span><span class="dashboard-status good">Ready</span></div></div></section>
+  </div>
+</section>
+    
+<section class="dashboard-view" data-view="studio" data-title="Studio Work">
+  <div class="dashboard-hero">
+    <div class="dashboard-hero-copy"><span class="dashboard-eyebrow-small">05 / Studio Work</span><h1>Build a body<br><em>of work.</em></h1><p>Your current projects, process evidence and portfolio direction. Keep experiments visible, not hidden.</p></div>
+    <div class="dashboard-hero-note">The studio is where unfinished ideas become useful evidence. Keep both the resolved work and the questions beside it.</div>
+  </div>
+  <section class="dashboard-section">
+    <div class="dashboard-section-head"><h2>Current projects</h2><span>07 active</span></div>
+    <div class="dashboard-feature-row">
+      <article class="dashboard-feature"><small>01 / Lead project</small><h3>Material memory</h3><p>Clay, found surfaces and repeated forms. Next: photograph the second experiment.</p><div class="dashboard-progress"><span style="width:76%"></span></div></article>
+      <article class="dashboard-feature"><small>02 / Research</small><h3>Colour archive</h3><p>A visual collection exploring colour through studio notes and found references.</p><div class="dashboard-progress"><span style="width:61%"></span></div></article>
+      <article class="dashboard-feature"><small>03 / Portfolio</small><h3>Selected studies</h3><p>Eight works currently shortlisted for the next portfolio review.</p><div class="dashboard-progress"><span style="width:48%"></span></div></article>
+    </div>
+  </section>
+  <div class="dashboard-two-col">
+    <section class="dashboard-panel"><h3>Recent process</h3><div class="dashboard-list"><div class="dashboard-list-item"><span>Material memory / study 03</span><span class="dashboard-list-meta">Added today<br>4 images</span></div><div class="dashboard-list-item"><span>Colour archive / note 12</span><span class="dashboard-list-meta">Yesterday<br>2 references</span></div><div class="dashboard-list-item"><span>Selected studies / edit</span><span class="dashboard-list-meta">Sep 19<br>8 works</span></div></div></section>
+    <section class="dashboard-panel"><h3>Portfolio direction</h3><p class="dashboard-panel-copy">Your strongest current thread is material-led work. Keep the next edit focused enough to show a clear question rather than a broad collection.</p><div class="dashboard-feature" style="margin-top:18px"><small>Next review</small><h3>Friday · 11:30 AM</h3><p>Bring one resolved work and one unresolved question.</p></div></section>
+  </div>
+  <div class="dashboard-callout"><div class="dashboard-callout-copy"><strong>Keep the experiment visible.</strong><p>Process is part of the work, not something to hide.</p></div><a href="#overview" data-tab-link="overview">Back to overview ↗</a></div>
+</section>
+  </main>
+</div>
+
+<script src="../../assets/js/dashboard.js"></script>
+</body>
+</html>
